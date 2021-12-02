@@ -1,0 +1,24 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Яблоко{% endblock %}
+{% block content %}
+    <div class="features">
+        <h1>Яблоко</h1>
+        <img src={{data.}} alt="">
+        <table>
+  <tr>
+    <th colspan="2">Белки(г)</th>
+    <th colspan="2">Жиры(г)</th>
+    <th colspan="2">Углеводы(г)</th>
+  </tr>
+  <tr>
+      <th colspan="2">0.26</th>
+    <th colspan="2">0.17</th>
+    <th colspan="2">13.81</th>
+  </tr>
+
+  </table>
+        <p>{{data.description}}</p>
+        <a class="btn btn-primary" href="http://127.0.0.1:8000/" role="button">Главная страница</a>
+    </div>
+{% endblock %}
